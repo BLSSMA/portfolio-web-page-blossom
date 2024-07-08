@@ -1,3 +1,18 @@
+:root{
+    --p-font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+
+    --headers-font-family:"Prata", serif;
+            font-weight: 400;
+            font-style: normal;
+
+    --brand-color-light:#fceefa;
+    --brand-color-dark: #e38cba;
+}
+
+
 body{
     text-align: center;
 }
@@ -5,4 +20,33 @@ body{
 .logo-img{
     max-width: 40px;
     padding:0;
+}
+
+nav, p{
+font-family: var(--p-font-family);
+}
+
+h1, h2, h3, button{
+    font-family: var(--headers-font-family);
+}
+
+button{
+    font-size:12px;
+    padding:10px;
+    border-radius: 4px;
+    background:white;
+    border:solid 2px var(--brand-color-dark);
+}
+
+button a{
+    text-decoration: none;
+}
+nav{
+    background:var(--brand-color-dark);
+}
+.hero{
+    margin:0 auto;
+    background:var(--brand-color-dark);
+    width:100%;
+    padding:150px 0;
 }
