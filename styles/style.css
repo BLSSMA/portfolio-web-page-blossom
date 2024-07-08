@@ -42,11 +42,35 @@ button a{
     text-decoration: none;
 }
 nav{
-    background:var(--brand-color-dark);
+    background:var(--brand-color-light);
 }
 .hero{
     margin:0 auto;
-    background:var(--brand-color-dark);
+    background:var(--brand-color-light);
     width:100%;
-    padding:150px 0;
+    height: 800px;
+}
+
+.hero-text{
+  padding-top:280px;
+}
+
+.hero-text h1{
+    font-size: 96px;
+    line-height: 128px;
+}
+.hero-text h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.hero-text h3 {
+    font-size: 36px;
+    line-height: 54px;
+}
+.hero-text button{
+    border-radius: 4px;
+    padding:18px 30px;
+    font-weight: 500px;
+    margin-top:20px;
+
 }
