@@ -86,3 +86,31 @@ nav{
 .text-muted{
     font-size: 18px;
 }
+
+@media(width <992px){
+    .hero{
+        height: 600px;
+    }
+    .hero-text{
+        padding-top:100px;
+    }
+    .project-text{
+        margin-top:50px;
+    }
+    .small-screen .forecast, .small-screen .clock, .small-screen .poem{
+        border:solid 1px var(--brand-color-dark);
+        padding:15px;
+        margin:10px;
+        background: #fefcfe;
+    }
+    .small-screen{
+        margin-bottom:60px;
+    }
+
+    button{
+        background:white;
+    }
+    body{
+        max-width: 100%;
+    }
+}
