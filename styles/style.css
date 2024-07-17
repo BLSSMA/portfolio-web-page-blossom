@@ -13,43 +13,38 @@
 }
 
 body {
+    font-family: var(--p-font-family);
     text-align: center;
 }
-
+.projects-bg{
+    background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 238, 250, 1) 100%);
+    }
 .logo-img {
     max-width: 40px;
     padding: 0;
 }
 
-nav,
-p {
-    font-family: var(--p-font-family);
+.button {
+    margin: 20px 0;
+    padding: 30px;
 }
 
-h1,
-h2,
-h3,
-button {
-    font-family: var(--headers-font-family);
-}
-
-button {
+.button a {
     font-size: 12px;
-    padding: 10px;
+    font-family: var(--headers-font-family);
+    padding: 10px 20px;
+    margin-top: 40px;
     border-radius: 4px;
     background: white;
     border: solid 2px var(--brand-color-dark);
+    text-decoration: none;
+    font-weight: 500px;
 }
 
-button a:hover {
+.button a:hover {
     color: white;
     background-color: #e38cba;
-    text-decoration: none;
-    list-style: none;
-}
-
-button a {
-    text-decoration: none;
 }
 
 nav {
@@ -60,125 +55,96 @@ nav {
     margin: 0 auto;
     background: var(--brand-color-light);
     width: 100%;
-    height: 800px;
+    height: 700px;
+    padding-top: 80px;
 }
 
-.hero-text {
-    padding-top: 280px;
-}
-
-.hero-text h1 {
+h1 {
     font-size: 96px;
-    line-height: 128px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--headers-font-family);
 }
 
-.hero-text h2 {
+h2 {
     font-size: 24px;
-    line-height: 36px;
+    line-height: 1.5;
+    font-family: var(--headers-font-family);
 }
 
-.hero-text h3 {
+h3 {
     font-size: 36px;
-    line-height: 54px;
+    line-height: 1.5;
+    font-family: var(--headers-font-family);
+    padding-bottom: 20px;
 }
 
-.hero-text button {
-    border-radius: 4px;
-    padding: 18px 30px;
-    font-weight: 500px;
-    margin-top: 20px;
-}
-
-.first-block {
-    max-width: 100%;
-}
-
-.project-text {
-    margin-top: 230px;
-}
-
-.text-muted {
-    font-size: 18px;
-}
-
-.about-header h1 {
-    padding: 60px 0 10px 0;
+h4 {
+    font-size: 30px;
     font-weight: 600;
-    line-height: 1.5;
-    font-size: 45px;
+    font-family: var(--headers-font-family);
+    padding: 15px 0 0;
 }
 
-.about-header h3 {
-    font-size: 18px;
-    line-height: 1.5;
+p {
+    opacity: 70%;
+    padding-top: 15px;
 }
 
-.about-header {
+.secondary-header {
     background-color: var(--brand-color-light);
-    padding-bottom: 10px;
+    padding: 80px 0;
     margin-bottom: 30px;
 }
 
 .about-page p {
-    font-size: 18px;
-    font-family: var(--p-font-family);
     text-align: justify;
-    margin-left:20px;
+    width: 80%;
+    margin: 0 auto;
 }
-
-.about-page-footer {
-    margin-top: 30px;
+.projects-row-1:hover{
+    transform: scale(1.05);
+    transition: 0.2s all ease-in-out;
 }
-
+.projects-row-2:hover {
+    transform: scale(1.15);
+    transition: 0.2s all ease-in-out;
+}
+.projects-row-3:hover {
+    transform: scale(1.5);
+    transition: 0.2s all ease-in-out;
+}
 @media (width <992px) {
     .hero {
-        height: 600px;
-    }
-
-    .hero-text {
+        height: 500px;
         padding-top: 70px;
     }
 
-    .hero-text h1 {
-        font-size: 50px;
-        padding-bottom: 30px;
-        line-height: 1.5;
+    h1 {
+        font-size: 48px;
+        padding-bottom: 25px;
+        line-height: 1;
         font-weight: 600;
     }
 
-    .project-text {
-        margin-top: 50px;
+    h3 {
+        font-size: 32px;
+        line-height: 1.5;
     }
 
-    .small-screen .forecast,
-    .small-screen .clock,
-    .small-screen .poem {
+    h2 {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .forecast,
+    .clock,
+    .poem {
         border: solid 1px var(--brand-color-dark);
-        padding: 15px;
-        margin: 10px auto;
+        padding: 30px 0 15px;
+        margin: 10px 0 60px;
         background: #fefcfe;
         text-align: center;
-    }
-
-    .small-screen {
-        margin-bottom: 60px;
-    }
-
-    button {
-        background: white;
-    }
-
-    .about-page p {
-        max-width: 80%;
-        margin: 0 auto;
-    }
-
-    .about-page button {
-        margin-top: 20px;
-        margin-bottom: 15px;
-    }
-
-    .about-page-footer {
-        margin-top: 100px;
     }
 }

@@ -23,10 +23,22 @@
       src="https://kit.fontawesome.com/97faeccb94.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    />
     <title>Blossom Armstrong Portfolio</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body class="projects-bg">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
           ><img src="img/logo.png" alt="" class="logo-img"
@@ -44,47 +56,93 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" aria-current="page" href="/">Home</a>
             <a class="nav-link" href="about.html">About</a>
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link active" href="projects.html">Projects</a>
             <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <h1>Check out my projects!</h1>
+    <h1 class="pb-0 mb-0">Preview some of my projects</h1>
+    <h2 class="pt-0 pb-5 mt-0">
+      All projects were built with HTML, CSS and JavaScript and more
+    </h2>
 
-    <div class="container">
-      <img src="" alt="" />
-      <h2></h2>
-      <p></p>
-    </div>
-    <div class="container">
-      <img src="" alt="" />
-      <h2></h2>
-      <p></p>
-    </div>
-    <div class="container">
-      <img src="" alt="" />
-      <h2></h2>
-      <p></p>
-    </div>
-    <div class="container">
-      <img src="" alt="" />
-      <h2></h2>
-      <p></p>
+    <div class="container projects">
+      <div class="row">
+        <div class="col-md-6 p-0">
+          <img
+            src="img/light-theme.jpeg"
+            alt="a screen shot of a web page displaying digital drawings of ghosts in a light theme mode"
+            class="img-fluid shadow projects-row-1 rounded"
+          />
+        </div>
+        <div class="col-md-6 p-0">
+          <img
+            src="img/dark-theme.jpeg"
+            alt="a screen shot of a web page displaying digital drawings of ghosts in a dark theme mode"
+            class="img-fluid shadow projects-row-1 rounded"
+          />
+        </div>
+        <h3 class="pt-2 pb-5">Theme Change</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="img/basics-weather.jpeg"
+            alt="a screen shot of a web page displaying boston as a title. under the title reads weather details and there is a search bar at the top"
+            class="img-fluid shadow projects-row-2 rounded"
+          />
+        </div>
+        <div class="col-md-6">
+          <img
+            src="img/basics.jpeg"
+            alt="a screen shot of a web page displaying a title reading 'hi, blossom and goblin' a subtitle reading meet peter parker and goblin, and a big body of text displaying a made up story about cats"
+            class="img-fluid shadow projects-row-2 rounded"
+          />
+        </div>
+        <h3 class="pt-2 pb-5">Basics</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="img/clocks.jpeg"
+            alt="a screen shot of a web page. there is a white box on a lavender background. in the white box is black text reading world clock project, a city select drop down, and the current time and date in los angeles and paris"
+            class="img-fluid shadow projects-row-3 rounded"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="img/ai-poem.jpeg"
+            alt="a screen shot of a webpage. at the top is a box that says ''fairy emoji' AI poem generator' under this is another box featuring a spot to enter text with a sumbit button to the side. the whole page is dusty pink, olive green, and cream "
+            class="img-fluid shadow projects-row-3 rounded"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="img/weather.jpeg"
+            alt="a screen shot of a weather app showing the current weather and temperature in Boston MA with the forcast for the next 5 days of weather below it. the background is a gentle gradient of blue pink and yellow"
+            class="img-fluid shadow projects-row-3 rounded"
+          />
+        </div>
+        <h3 class="pt-2 pb-5">Advanced</h3>
+      </div>
     </div>
 
     <footer>
       <div class="container">
-        <h1>Work Inquiry</h1>
+        <h4>Work Inquiry</h4>
         <p>this is subtext</p>
-        <button><a href="contact.html">Let's get in touch</a></button>
+        <div class="button m-3">
+          <a href="contact.html">Let's get in touch</a>
+        </div>
       </div>
       <a href="mailTo:blossom.armstrong@gmail.com"
         >blossom.armstrong@gmail.com</a
       >
+
       <a href="http://www.instagram.com"
         ><i class="fa-brands fa-instagram"></i
       ></a>
