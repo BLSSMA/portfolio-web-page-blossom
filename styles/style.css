@@ -120,24 +120,20 @@ p {
         height: 500px;
         padding-top: 70px;
     }
-
     h1 {
         font-size: 48px;
         padding-bottom: 25px;
         line-height: 1;
         font-weight: 600;
     }
-
     h3 {
         font-size: 32px;
         line-height: 1.5;
     }
-
     h2 {
         font-size: 18px;
         line-height: 1;
     }
-
     .forecast,
     .clock,
     .poem {
@@ -147,4 +143,12 @@ p {
         background: #fefcfe;
         text-align: center;
     }
+    .projects img{
+        margin-bottom: 20px;
+    }
+    
+    .projects-row-1:hover, .projects-row-2:hover, .projects-row-3:hover{
+        transform:none;
+    }
+
 }
