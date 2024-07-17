@@ -16,7 +16,7 @@ body {
     font-family: var(--p-font-family);
     text-align: center;
 }
-.projects-bg{
+.background-gradient{
     background: rgb(255, 255, 255);
         background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 238, 250, 1) 100%);
     }
@@ -103,17 +103,13 @@ p {
     width: 80%;
     margin: 0 auto;
 }
-.projects-row-1:hover{
-    transform: scale(1.05);
-    transition: 0.2s all ease-in-out;
-}
-.projects-row-2:hover {
-    transform: scale(1.15);
-    transition: 0.2s all ease-in-out;
-}
 .projects-row-3:hover {
-    transform: scale(1.5);
+    transform: scale(1.75);
     transition: 0.2s all ease-in-out;
+}
+.contact-links{
+    text-decoration: none;
+    color:#c63984;
 }
 @media (width <992px) {
     .hero {
@@ -147,7 +143,7 @@ p {
         margin-bottom: 20px;
     }
     
-    .projects-row-1:hover, .projects-row-2:hover, .projects-row-3:hover{
+    .projects-row-3:hover{
         transform:none;
     }
 
