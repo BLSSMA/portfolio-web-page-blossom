@@ -12,6 +12,24 @@
     --brand-color-dark: #e38cba;
 }
 
+nav a, nav li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+   line-height: 80px;
+   font-size: 20px;
+    padding-left:20px;
+    padding-bottom:5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+nav a:hover, nav li:hover, .active{
+    color: var(--brand-color-dark);
+}
+nav img{
+    max-height: 80px;
+    margin-top:10px;
+}
+
 body {
     font-family: var(--p-font-family);
     text-align: center;
@@ -45,10 +63,6 @@ body {
 .button a:hover {
     color: white;
     background-color: #e38cba;
-}
-
-nav {
-    background: var(--brand-color-light);
 }
 
 .hero {
@@ -105,11 +119,15 @@ p {
 }
 .projects-row-3:hover {
     transform: scale(1.75);
-    transition: 0.2s all ease-in-out;
+    transition:all 300ms ease-in-out;
 }
 .contact-links{
     text-decoration: none;
     color:#c63984;
+    font-size: 22px;
+}
+.contact-links:hover{
+    text-decoration: underline;
 }
 @media (width <992px) {
     .hero {
