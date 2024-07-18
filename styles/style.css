@@ -46,6 +46,7 @@ body {
 .button {
     margin: 20px 0;
     padding: 30px;
+    font-size: 18px;
 }
 
 .button a {
@@ -104,6 +105,7 @@ h4 {
 p {
     opacity: 70%;
     padding-top: 15px;
+    font-size: 18px;;
 }
 
 .secondary-header {
@@ -111,8 +113,8 @@ p {
     padding: 80px 0;
     margin-bottom: 30px;
 }
-.poem h4, .poem p{
-    padding-top:100px;
+.projects h4{
+    padding-top:150px;
 }
 .about-page p {
     text-align: justify;
@@ -158,14 +160,14 @@ footer .email{
 footer .email:hover{
     color:rgba(0, 0, 0, 0.5);
 }
-.fa-brands{
+footer i{
     font-size: 38px;
     margin:20px;
     border-radius: 40px;
     padding:5px;
     color:var(--brand-color-dark);
 }
-.fa-brands:hover{
+footer i:hover{
     background:var(--brand-color-dark);
     padding:5px;
     color:white;
