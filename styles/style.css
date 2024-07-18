@@ -174,19 +174,26 @@ footer i:hover{
 }
 
 @media (width <992px) {
+    nav a {
+        padding-left:5px;
+        font-size: 10px;
+    }
+    nav img{
+        max-width: 8px;
+    }
     .hero {
-        height: 500px;
+        height: 400px;
         padding-top: 70px;
     }
     h1 {
-        font-size: 48px;
-        padding-bottom: 25px;
+        font-size: 40px;
+        padding-bottom: 10px;
         line-height: 1;
         font-weight: 600;
     }
     h3 {
-        font-size: 32px;
-        line-height: 1.5;
+        font-size: 24px;
+        line-height: 1;
     }
     h2 {
         font-size: 18px;
@@ -204,9 +211,34 @@ footer i:hover{
     .projects img{
         margin-bottom: 20px;
     }
-    
+    .projects-hero h1{
+        font-size: 26px;
+        margin-top:15px;
+    }
+    .projects-hero h2{
+        font-size:11px;
+    }
     .projects-row-3:hover{
         transform:none;
     }
+   footer .button a {
+       font-size: 12px;
+       padding: 10px 20px;
+       margin-right:0;
+   }
+   footer .footer-box {
+     padding:10px;
+       max-width: 90%;
+   }
+   footer h4 {
+       font-size: 20px;
+       margin-left:10px;
 
+   }
+   footer p {
+    font-size:12px;
+   }
+   footer .email{
+    font-size: 22px;
+   }
 }
