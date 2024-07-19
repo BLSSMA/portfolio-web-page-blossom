@@ -19,8 +19,8 @@ nav a, nav li{
    font-size: 20px;
     padding-left:20px;
     padding-bottom:5px;
-   
     color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
 }
 nav a:hover, nav li:hover, .active{
     color: var(--brand-color-dark);
@@ -182,14 +182,14 @@ footer i:hover{
         font-size: 10px;
     }
     nav img{
-        max-width: 8px;
+        max-width: 4px;
     }
     .hero {
         height: 400px;
         padding-top: 70px;
     }
     h1 {
-        font-size: 40px;
+        font-size: 38px;
         padding-bottom: 10px;
         line-height: 1;
         font-weight: 600;
@@ -201,6 +201,20 @@ footer i:hover{
     h2 {
         font-size: 18px;
         line-height: 1;
+    }
+    .projects h4{
+        padding-top:0;
+        padding-bottom:10px;
+        font-size:25px;
+    }
+    .about-page .button{
+        margin-bottom:30px;
+    }
+    .projects p{
+        font-size: 17px;
+    }
+    .projects .button{
+        margin-bottom:20px;
     }
     .forecast,
     .clock,
@@ -228,6 +242,7 @@ footer i:hover{
        font-size: 12px;
        padding: 10px 20px;
        margin-right:0;
+       margin-top:0;
    }
    footer .footer-box {
      padding:10px;
